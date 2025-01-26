@@ -1,3 +1,6 @@
+# postgrsql 삭제
+batch-example/batch-example-infra/data
+
 HELP.md
 .gradle
 build/

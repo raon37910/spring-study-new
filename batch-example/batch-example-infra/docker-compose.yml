@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+  batch-postgresql:
+    image: postgres:latest
+    restart: always
+    volumes:
+      # ./data/batxh-example-db와 postgresql 컨테이너 내부 데이터 폴더와 매핑
+      - ./data/batch-example-db:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: qwer1234
+    ports:
+      - "5432:5432"
