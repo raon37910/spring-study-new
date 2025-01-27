@@ -8,6 +8,7 @@ import org.springframework.batch.core.JobExecution;
 import org.springframework.batch.test.JobLauncherTestUtils;
 import org.springframework.batch.test.context.SpringBatchTest;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.actuate.observability.AutoConfigureObservability;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.jdbc.Sql;
@@ -16,6 +17,7 @@ import org.springframework.test.context.junit.jupiter.SpringJUnitConfig;
 import com.raon.example.batch.BatchExampleApplication;
 
 @Sql("/sql/schema.sql")
+@AutoConfigureObservability
 @ActiveProfiles("test")
 @SpringBatchTest
 @SpringJUnitConfig(classes = BatchExampleApplication.class)

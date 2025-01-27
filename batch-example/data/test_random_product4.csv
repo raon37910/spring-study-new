@@ -1,0 +1,6 @@
+sellerId,category,productName,salesStartDate,salesEndDate,productStatus,brand,manufacturer,salesPrice,stockQuantity
+17,스포츠,축구공,2023-03-08,2026-06-13,AVAILABLE,도미노,롯데제과,403109,613
+94,스포츠,레고,2023-10-08,2024-10-08,OUT_OF_STOCK,롯데,맥도날드코리아,100591,949
+88,서적,레고,2023-03-26,2024-09-09,AVAILABLE,BMW,도미노피자,453158,45
+52,식품,TV,2022-11-05,2026-03-07,AVAILABLE,LG,현대자동차,132227,82
+31,디지털,스킨케어세트,2021-11-08,2025-07-15,OUT_OF_STOCK,나이키,LG전자,379421,956

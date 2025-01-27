@@ -7,6 +7,11 @@ dependencies {
     implementation("org.apache.commons:commons-csv:1.11.0")
 
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+
+    implementation("org.springframework.boot:spring-boot-starter-actuator")
+    implementation("io.micrometer:micrometer-registry-prometheus-simpleclient:1.13.4")
+    implementation("io.prometheus:simpleclient_pushgateway:0.16.0")
+
     runtimeOnly("com.h2database:h2")
     runtimeOnly("org.postgresql:postgresql")
 
